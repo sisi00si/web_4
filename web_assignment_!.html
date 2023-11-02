@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>University Merch</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> <!-- Bootstrap CSS -->
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="iconn/assik.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <h1 class="navbar-brand">AITU Merch</h1>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="pages/about.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#prod_it">Products</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="pages/contact.html">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container">
+    <h1 style="color: #131f63; font-size: 190%" >Unwrap Your Style: Limited-Time Sale on Exclusive Fashion!</h1>
+    <div class="container-segment">
+      <div class="segment-title">Hours</div>
+      <div class="segment">
+        <div class="flip-card" data-hours-tens>
+          <div class="top">2</div>
+          <div class="bottom">2</div>
+        </div>
+        <div class="flip-card" data-hours-ones>
+          <div class="top">4</div>
+          <div class="bottom">4</div>
+        </div>
+      </div>
+    </div>
+    <div class="container-segment">
+      <div class="segment-title">Minutes</div>
+      <div class="segment">
+        <div class="flip-card" data-minutes-tens>
+          <div class="top">0</div>
+          <div class="bottom">0</div>
+        </div>
+        <div class="flip-card" data-minutes-ones>
+          <div class="top">0</div>
+          <div class="bottom">0</div>
+        </div>
+      </div>
+    </div>
+    <div class="container-segment">
+      <div class="segment-title">Seconds</div>
+      <div class="segment">
+        <div class="flip-card" data-seconds-tens>
+          <div class="top">0</div>
+          <div class="bottom">0</div>
+        </div>
+        <div class="flip-card" data-seconds-ones>
+          <div class="top">0</div>
+          <div class="bottom">0</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Add these input fields to your HTML -->
+<div class="timerupdater">
+    <input type="number" id="hourInput" placeholder="Hours">
+    <input type="number" id="minuteInput" placeholder="Minutes">
+    <input type="number" id="secondInput" placeholder="Seconds">
+    <button id="updateTimer">Update Timer</button>
+  </div>
+  
+
+    <section class="homepage">
+      <h1 id="fancy-heading">Welcome to AITU Merch!</h1>
+      <div class="main-img">
+          <!-- Add Bootstrap tooltip to the image -->
+          <img src="iconn/logo.jpg" alt="logo img" data-toggle="tooltip" data-placement="bottom" title="AITU STUDENTS ARE HAPPY TO WEAR UNI MERCH">
+          <p>We're your one-stop shop for all merch products. We offer a wide variety of merch, including clothing, accessories. 
+              <br> All of our merch is high-quality and officially licensed.</p>
+          <a href="#prod_it">Shop Now</a>
+      </div>
+  </section>
+  
+  <br>
+  <!-- main content -->
+
+  <main>
+    <!--search bar-->
+    <div class="container mt-4">
+      <div class="row justify-content-center">
+          <div class="col-md-6">
+            <search_bar>
+              <form action="/search" method="get">
+                  <input type="text" name="q" placeholder="Search...">
+                  <input type="submit" value="Search">
+              </form>
+          </search_bar>
+          </div>
+      </div>
+  </div>
+
+
+<section class="product_item" id="prod_it">
+  <h2><em>Products</em></h2>
+  <div class="row">
+      <div class="col-md-4">
+          <div class="product">
+              <img src="iconn/blue shirt.webp" class="card-img-top" alt="T-Shirt">
+              <h3 class="card-title">T-Shirt</h3>
+              <p class="card-text"><strong>9900&#8376;</strong></p>
+              <a href="#" class="btn btn-primary">Add to Cart</a>
+          </div>
+      </div>
+      <div class="col-md-4">
+          <div class="product">
+              <img src="iconn/bag.jpg" class="card-img-top" alt="Bag" style="width: 55%; height: auto;">
+              <h3 class="card-title">Bag</h3>
+              <p class="card-text"><strong>6900&#8376;</strong></p>
+              <a href="#" class="btn btn-primary">Add to Cart</a>
+          </div>
+      </div>
+      <div class="col-md-4">
+          <div class="product">
+              <img src="iconn/bottle.webp" class="card-img-top" alt="Bottle" style="width: 25%; height: auto;">
+              <h3 class="card-title">Bottle</h3>
+              <p class="card-text"><strong>3900&#8376;</strong></p>
+              <a href="#" class="btn btn-primary">Add to Cart</a>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+
+<size>
+  <h2>Size Chart</h2>
+  <div class="table-responsive">
+      <table class="table">
+          <thead>
+              <tr>
+                  <th>Size</th>
+                  <th>Chest Width (inch)</th>
+                  <th>Length (inch)</th>
+                  <th>Sleeve Length (inch)</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td>Small</td>
+                  <td>18</td>
+                  <td>28</td>
+                  <td>8</td>
+              </tr>
+              <tr>
+                  <td>Medium</td>
+                  <td>20</td>
+                  <td>29</td>
+                  <td>8.5</td>
+              </tr>
+              <tr>
+                  <td>Large</td>
+                  <td>22</td>
+                  <td>30</td>
+                  <td>9</td>
+              </tr>
+          </tbody>
+      </table>
+  </div>
+</size>
+
+      <!-- limited edition -->
+      <section id="collections">
+        <h2>Collections</h2>
+      
+        <p>Don't miss out on our limited collection of exclusive items! These items are only available for a short time, so shop now and find your perfect piece.</p>
+      
+        <ul class="collection-list">
+          <li class="collection">
+            <a href="/collections/limited-edition">Limited Edition</a>
+          </li>
+        </ul>
+      </section>
+
+    
+      
+     
+      <!-- Order section -->
+<section id="order" class="order">
+  <button id="openModalBtn">Order Now</button>
+
+  <!-- Modal window -->
+  <div id="myModal" class="modal">
+      <div class="modal-content">
+          <span class="close">&times;</span>
+
+          <form action="/order" method="post">
+              <h2>Order</h2>
+
+              <!-- Form elements -->
+              <div class="form-group">
+                  <label for="name">Name:</label>
+                  <input type="text" name="name" id="name" placeholder="Write your name here" required>
+              </div>
+
+              <div class="form-group">
+                  <label for="phone">Phone Number:</label>
+                  <input type="tel" name="phone" id="phone" placeholder="Write your phone number here" required>
+              </div>
+
+              <div class="form-group">
+                  <label for="address">Shipping Address:</label>
+                  <textarea name="address" id="address" placeholder="Write your address here" required></textarea>
+              </div>
+
+              <div class="form-group">
+                <label for="product">Product:</label>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="productDropdownButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Select Product
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="productDropdownButton">
+                        <a class="dropdown-item" href="#" data-value="t-shirt">T-Shirt</a>
+                        <a class="dropdown-item" href="#" data-value="bag">Bag</a>
+                        <a class="dropdown-item" href="#" data-value="bottle">Bottle</a>
+                    </div>
+                </div>
+            </div>
+            
+
+              <div class="form-group">
+                  <label for="quantity">Quantity:</label>
+                  <input type="number" name="quantity" id="quantity" min="1" max="100" required>
+              </div>
+
+              <div class="form-group">
+                  <input type="submit" value="Order Now">
+              </div>
+          </form>
+      </div>
+  </div>
+</section>
+
+    
+
+    
+
+      
+   <!--review-->
+<review>
+  <form id="reviewForm" class="review-form" action="/reviews" method="post" novalidate>
+    <h3>Leave a review</h3>
+
+      <input type="text" id="reviewName" name="name" placeholder="Your name" required>
+      <input type="email" id="reviewEmail" name="email" placeholder="Your email address" required>
+      <textarea id="reviewText" name="review" placeholder="Write your review here" required></textarea>
+
+      <button type="submit">Submit review</button>
+  </form>
+</review>
+
+<div id="reviewErrorMessage"></div>
+
+
+
+  <!--sponsorship-->
+    <ul class="list-group">
+      <li class="list-group-item list-group-item-action active" aria-current="true">
+        Sponsorship
+      </li>
+      <li class="list-group-item list-group-item-action">Department of Students - Arman Kenzhebekov</li>
+      <li class="list-group-item list-group-item-action">AITU President - Nursultan Nysanov</li>
+      <li class="list-group-item list-group-item-action">Head of Leaders - Alizhan Oryntaev</li>
+
+      
+  </ul>
+      
+  <div id="inf">
+  <div class="product2" id="check">
+    Check Out
+    <span class="tooltip" id="tooltip">Click to view details</span>
+  </div>
+</div>
+
+
+    <!-- contact -->
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>If you have any questions or feedback, please feel free to contact us at <a href="https://t.me/surudzan">info@aitumerch.com</a>.</p>
+    </section>
+  </main>
+
+  <script src="https://unpkg.com/gsap@3.9.1/dist/gsap.min.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/timer.js"></script>
+
+
+
+
+</html>

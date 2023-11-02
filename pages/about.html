@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Our University Merch</title>
+     <link rel="stylesheet" href="css/style_about.css">
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> 
+
+</head>
+
+
+<!--navbar-->
+<header>
+    <h1>University Merchandise</h1>
+    <nav>
+        
+        <ul>
+            <li><a href="#welcome">Welcome</a></li>
+            <li><a href="#mission">Our Mission and Values</a></li>
+            <li><a href="#sustainability">Sustainability Initiatives</a></li>
+            <li><a href="#events">Upcoming Events</a></li>
+            <li><a href="MerchRaffle">Merch Raffle</a><li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+
+   <!--carousel-->
+   <section class="carousel">
+   <div class="container mt-5">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="pics aitusa/aitusa3.jpg" class="d-block w-100" alt="First Slide">
+            </div>
+            <div class="carousel-item">
+                <img src="pics aitusa/aitusa2.jpg" class="d-block w-100" alt="Second Slide">
+            </div>
+            <div class="carousel-item">
+                <img src="pics aitusa/aitusa1.jpg" class="d-block w-100" alt="Third Slide">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+</section>
+
+<div id="board">
+</div>
+<h1 id="board-counter">Turns: <span id="turns">0</span></h1>
+
+<audio id="backgroundMusic" loop>
+    <source src="Fluffing-a-Duck(chosic.com).mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+
+<audio id="winMusic" loop>
+    <source src="spark-of-inspiration(chosic.com).mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+
+<button id="surrenderButton">Surrender</button>
+
+      
+
+<main class="container mt-5"> 
+    <div class="row">
+        <div class="col-sm">
+            <section class="about-section">
+                <h2 id="welcome">About Our University Merch</h2>
+                <p>Welcome to our university merchandise store! Established in 2019, our university takes great pride in the creativity and talent of our students. The designs featured on our clothes were created by our own students, showcasing their artistic abilities and innovative ideas.</p>
+                <p>The vibrant colors you see on our merchandise are inspired by the hues of our university's buildings, creating a unique and meaningful connection to our university. Every garment tells a story and reflects the spirit of our university community.</p>
+                <p>Fun Fact: The entire merchandising process is overseen by the student association known as AITUSA (Astana IT University Student Association). Their dedication and passion bring our merchandise to life, making it a true representation of our university's culture.</p>
+           
+        
+                <div class="col-sm">
+            <h3 id="mission">Our Mission and Values</h3>
+            <p>At our university, we believe in fostering creativity, innovation, and community spirit. Our merchandise reflects these core values, serving as a canvas for the unique perspectives and talents of our students.</p>
+                </div>
+
+                <div class="col-sm">
+            <h3 id="sustainability">Sustainability Initiatives</h3>
+            <p>We are committed to sustainability. Our merchandise is created using eco-friendly materials and ethical production practices, aligning with our university's dedication to environmental responsibility.</p>
+                </div>
+            <div class="col-sm">
+            <h3 id="events">Upcoming Events</h3>
+            <p>Join us at our next merchandise launch event! Stay tuned for details on our fashion show where our students' designs will take center stage.</p>
+            </div>
+
+            <div class="container">
+        
+                <h3 id="MerchRaffle">Merch Raffle</h3>
+                <div id="taskInputContainer">
+                    <input type="text" id="taskInput" placeholder="Add a new task">
+                    <button id="addTaskButton">Add</button>
+                </div>
+                <ul id="taskList"></ul>
+            </div>
+            
+            <script src="js/aboutScript.js"></script>
+            <script src="js/puzzle.js"></script>
+       
+            
+        </section>
+        </div>
+    </div>
+</main>
+
+
+    <!--footer-->
+    <footer>
+        <p>&copy; 2023 University Merchandise. All rights reserved.</p>
+    </footer>
+</body>
+
+  
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</html>
