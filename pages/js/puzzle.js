@@ -86,7 +86,7 @@ window.onload = function() {
 function dragStart() {
     currTile = this; //this refers to the img tile being dragged
     if (!isWINMusicPlaying) {
-    playBackgroundMusic();
+        playBackgroundMusic();
     }
 }
 
