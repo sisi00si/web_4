@@ -20,6 +20,7 @@ document.getElementById("surrenderButton").addEventListener("click", surrenderGa
 function surrenderGame() {
     winnerMusic.play();
     isWINMusicPlaying = true;
+    isBGMusicPlaying = true;
     backgroundMusic.pause();
 
     
