@@ -57,6 +57,7 @@ function checkWin() {
     if (currentOrder === "123456789") {
         winnerMusic.play();
         backgroundMusic.pause();
+        isBGMusicPlaying = true;
         arrangeTiles();
     }
 }
